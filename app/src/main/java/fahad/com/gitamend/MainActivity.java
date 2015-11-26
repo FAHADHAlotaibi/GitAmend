@@ -12,13 +12,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setSupportActionBar(toolbar);
-        setSupportActionBar(toolbar);
-        setSupportActionBar(toolbar);
 
     }
 
     private void fillStrings() {
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
     }
 }
